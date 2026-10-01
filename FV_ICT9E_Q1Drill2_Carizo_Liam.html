@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q1 Drill 2</title>
+    <style>
+        body{
+            font-family: 'Times New Roman', Times, serif;
+            background-color: rgb(0, 0, 0);
+            color: rgb(220, 0, 0);
+        }
+        header{
+            text-align: center;
+        }
+        section{
+            background-color: rgb(0, 0, 0);
+            padding: 20px;
+            border-radius: 12px;
+            width: 600px;
+            margin: auto;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+        input[type="text"], select, textarea,  input[type="submit"] {
+            width: 94%;
+            padding: 15px;
+            border: 1px solid #ffb803;
+            border-radius: 5px;
+            text-align: center;
+        }
+        img{
+            display: block;
+            margin: auto;
+            height: 200px;
+            width: 350px;
+            padding: 0px;
+        }
+        input[type="submit"]{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Movie Ratings</h1>
+        <i><p>(Write a movie rating!)</p></i>
+    </header>
+        <br>
+
+
+        <section>
+            <form action="">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Stranger_Things_logo.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original" alt="Stranger Things Logo">
+                <br>
+                
+                <b><label for="movie">Movie Title</label></b>
+                <br>
+
+                <input type="text" id="movie" name="movie" placeholder="Type here...">
+
+                <br>
+                <b><label>Genre / Genres</label></b>
+                <br>
+                <input type="checkbox" id="genre1" name="genre">
+                <label for="genre1">Action</label>
+
+                <!--Ps, I wanted to put the check boxes lined up so... I removed the <br>-->
+
+                <input type="checkbox" id="genre2" name="genre">
+                <label for="genre2">Comedy</label>
+
+                <input type="checkbox" id="genre3" name="genre">
+                <label for="genre3">Romance</label>
+
+                <input type="checkbox" id="genre4" name="genre">
+                <label for="genre4">Horror</label>
+
+                <input type="checkbox" id="genre5" name="genre">
+                <label for="genre5">Other...</label>
+
+                <br>
+                <input type="radio" id="1s" name="ratings">
+                <label for="1s">★</label>
+
+                <input type="radio" id="2s" name="ratings">
+                <label for="2s">★★</label>
+
+                <input type="radio" id="3s" name="ratings">
+                <label for="3s">★★★</label>
+
+                <input type="radio" id="4s" name="ratings">
+                <label for="4s">★★★★</label>
+
+                <input type="radio" id="5s" name="ratings">
+                <label for="5s">★★★★★</label>
+
+                <br>
+                <textarea id="review" placeholder="Type your review here..." rows="5" cols="40"></textarea>
+                <br>
+
+                <input type="submit" id="submit" value="Submit Your Review!">
+                <br>
+
+                Kindly click <a href="https://www.nyfa.edu/student-resources/9-tips-for-writing-a-film-review/" target="_blank">here</a> in order to find a guide to make a review.
+
+            </form>
+        </section>
+</body>
+</html>
+
+<!--I'm not sure if the link is okay to use but it's the 1st thing I saw-->
+<!-- N.Y.F.A. (2024, March 13) How to Write a Movie Review: 10 Essential Tips, https://www.nyfa.edu/student-resources/9-tips-for-writing-a-film-review/-->
